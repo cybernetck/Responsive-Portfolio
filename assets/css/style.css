@@ -1,0 +1,120 @@
+/*
+Style Sheet for Responsive Portfolio - Matthew Womack, 2018
+Last updated - Jan 16th 2018.
+*/
+
+
+ ul {
+    list-style-type: none;
+ }
+
+ li {
+    display: inline;
+    float: right;
+}
+
+li a {
+    text-decoration-line: none;
+    text-align: center;
+    color:#000;
+    height: 40px;
+    display: block;
+    /* width: 60px; */
+    padding: 5px 12px;   
+}
+
+li a:hover {
+    background-color:#333;
+    color:#fff;
+    transition-duration: 1000ms;
+}
+
+#header {
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 50px; */
+}
+
+#header h1 {
+    font-size: 40px;
+}
+
+.name_class {
+    /* padding: 10px 20px 0px 20px; */
+    background-color: #000;
+    color:rgb(255, 255, 255);
+    margin-left: 40px;
+    float:left;
+}
+
+
+
+#header_title {
+    display: inline-block;
+    float:left;
+    background-color:#000;
+    color:#fff;
+     
+}
+
+#menu {
+    vertical-align: top;
+    padding-top: 7px;
+    padding-right: 80px;
+
+}
+
+#about_me {
+    /* position:absolute; */
+    background-color:#fff;
+    /* width: 650px; */
+    /* height: 350px; */
+    /* top: 40px; */
+    /* left: 80px; */
+    padding: 20px 20px 0px 20px;
+}
+
+#about_me img{
+    align-content: center;
+}
+
+#connect {
+    /* position: absolute; */
+    top: 40px;
+    right: 140px;
+    background-color:#fff;
+    /* width: 300px; */
+    margin: 0 auto;
+    /* padding: 20px; */
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    clear: both;
+}
+
+.cyan_line {
+    background-color: rgb(74, 170, 164);
+    height: 10px;
+    width: 100%;
+}
+
+
+#main {
+    /* position:relative; */
+    background-image: url("https://s19.postimg.org/edixf91z7/shattered.png");
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* height: 550px; */
+
+}
+
+.footer {
+    position: fixed;
+    color:#fff;
+    background-color: rgb(102,102,102);
+    margin: 0 auto;
+    /* height: 70px; */
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
