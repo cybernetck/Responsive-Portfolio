@@ -31,7 +31,7 @@ li a:hover {
 
 #header {
     font-family: Arial, Helvetica, sans-serif;
-    /* height: 50px; */
+    height: 50px;
 }
 
 #header h1 {
@@ -63,18 +63,27 @@ li a:hover {
 
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:50px;
+}
+
 #about_me {
-    /* position:absolute; */
+
     background-color:#fff;
-    /* width: 650px; */
-    /* height: 350px; */
-    /* top: 40px; */
-    /* left: 80px; */
     padding: 20px 20px 0px 20px;
 }
 
+#about_me h2{
+    text-align: center
+}
+
+
 #about_me img{
-    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:20px;
 }
 
 #connect {
@@ -103,7 +112,7 @@ li a:hover {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-    /* height: 550px; */
+    /* height: 100%; */
 
 }
 
@@ -111,10 +120,10 @@ li a:hover {
     position: fixed;
     color:#fff;
     background-color: rgb(102,102,102);
-    margin: 0 auto;
-    /* height: 70px; */
+    /* margin: 0 auto; */
+    height: 70px;
     text-align: center;
-    left: 0;
-    bottom: 0;
+    /* left: 0;
+    bottom: 0; */
     width: 100%;
 }
