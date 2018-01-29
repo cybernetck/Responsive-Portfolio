@@ -1,0 +1,63 @@
+/*
+
+Styling for Header - Responsive Portfolio
+
+Matthew Womack, 2018.
+
+*/
+
+ul {
+    list-style-type: none;
+ }
+
+ li {
+    display: inline;
+    float: right;
+}
+
+li a {
+    text-decoration-line: none;
+    text-align: center;
+    color:#000;
+    height: 40px;
+    display: block;
+    padding: 10px;  
+}
+
+li a:hover {
+    background-color:#333;
+    color:#fff;
+    transition-duration: 1000ms;
+    text-decoration-line: none;
+}
+
+#header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header h1 {
+    font-size: 40px;
+}
+
+.name_class {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000;
+    color:rgb(255, 255, 255);
+    margin-left: 40px;
+    float:left;
+}
+
+#header_title {
+    display: inline-block;
+    float: left;
+    background-color:#000;
+    color:#fff;
+     
+}
+
+#menu {
+    padding-top: 20px;
+    padding-right: 80px;
+    text-align: center;
+}
